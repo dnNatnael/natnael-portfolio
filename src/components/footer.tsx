@@ -2,8 +2,8 @@ import Link from "next/link"
 import { Github, Linkedin, Twitter, Mail, Code2 } from "lucide-react"
 
 const socialLinks = [
-  { name: "GitHub", href: "https://github.com/natnael", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com/in/natnael", icon: Linkedin },
+  { name: "GitHub", href: "https://github.com/dnNatnael", icon: Github },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/natnael-ketema-0a8613351/", icon: Linkedin },
   { name: "Twitter", href: "https://twitter.com/natnael", icon: Twitter },
   { name: "Email", href: "mailto:hello@natnael.dev", icon: Mail },
 ]
@@ -41,9 +41,8 @@ export function Footer() {
               <Code2 className="h-7 w-7 text-primary" />
               <span>Natnael Builds</span>
             </Link>
-            <p className="mt-4 text-muted-foreground max-w-md leading-relaxed">
-              Full-stack developer passionate about creating elegant solutions to complex problems. Building the future,
-              one line of code at a time.
+            <p className="mt-4 text-muted-foreground max-w-md leading-relaxed justified-text">
+              Front-end and Back-end Developer with a strong enthusiasm for AI and Machine Learning, specializing in building modern, scalable web applications and intelligent systems that support business growth and innovation.
             </p>
             <div className="mt-6 flex gap-4">
               {socialLinks.map((social) => (

@@ -103,4 +103,6 @@
 .glass {
   @apply bg-card/80 backdrop-blur-lg border border-border/50;
 }
-
+.justified-text{
+  text-align: justify;
+}

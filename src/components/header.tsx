@@ -50,7 +50,7 @@ export function Header() {
             className="flex items-center gap-2 text-xl font-bold text-foreground transition-colors hover:text-primary"
           >
             <Code2 className="h-7 w-7 text-primary" />
-            <span>Natnael</span>
+            <span>Natnael Yilma Ketema</span>
           </Link>
 
           {/* Desktop Navigation */}

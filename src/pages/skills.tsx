@@ -24,11 +24,11 @@ const skillCategories: SkillCategory[] = [
     icon: Palette,
     description: "Building responsive, accessible, and performant user interfaces",
     skills: [
-      { name: "React / Next.js", level: 95, years: 5 },
-      { name: "TypeScript", level: 90, years: 4 },
-      { name: "Tailwind CSS", level: 95, years: 3 },
-      { name: "HTML5 / CSS3", level: 95, years: 6 },
-      { name: "Framer Motion", level: 80, years: 2 },
+      { name: "HTML5 / CSS3", level: 98.9, years: 1 },
+       { name: "Tailwind CSS", level: 98, years: 1 },
+      { name: "JavaScript", level: 96, years: 1 },
+      { name: "React / Next.js", level: 95, years: 1 },
+      { name: "TypeScript", level: 90, years: 1 },
     ],
   },
   {
@@ -36,11 +36,10 @@ const skillCategories: SkillCategory[] = [
     icon: Server,
     description: "Designing and implementing scalable server-side solutions",
     skills: [
-      { name: "Python / FastAPI", level: 90, years: 4 },
-      { name: "Node.js / Express", level: 85, years: 4 },
-      { name: "REST API Design", level: 92, years: 5 },
-      { name: "GraphQL", level: 75, years: 2 },
-      { name: "WebSockets", level: 80, years: 3 },
+      { name: "Python / FastAPI", level: 85, years: 1},
+      { name: "Node.js / Express", level: 93, years: 1 },
+      { name: "REST API Design", level: 92, years: 1 },
+      { name: "WebSockets", level: 75, years: 3 },
     ],
   },
   {
@@ -48,11 +47,9 @@ const skillCategories: SkillCategory[] = [
     icon: Database,
     description: "Managing data with SQL and NoSQL databases",
     skills: [
-      { name: "PostgreSQL", level: 90, years: 5 },
-      { name: "MongoDB", level: 85, years: 4 },
-      { name: "Redis", level: 80, years: 3 },
-      { name: "Prisma ORM", level: 85, years: 2 },
-      { name: "Firebase", level: 75, years: 3 },
+      { name: "PostgreSQL", level: 90, years: 1},
+      { name: "MongoDB", level: 70, years: 1 },
+      { name: "Firebase", level: 95, years: 1 },
     ],
   },
   {
@@ -60,42 +57,32 @@ const skillCategories: SkillCategory[] = [
     icon: Cloud,
     description: "Deploying and maintaining cloud infrastructure",
     skills: [
-      { name: "Docker", level: 88, years: 4 },
-      { name: "AWS (EC2, S3, Lambda)", level: 82, years: 3 },
-      { name: "GitHub Actions", level: 90, years: 3 },
-      { name: "Vercel / Netlify", level: 95, years: 4 },
-      { name: "Linux / Bash", level: 85, years: 5 },
+      { name: "Docker", level: 80, years: 1 },
+      { name: "GitHub Actions", level: 95, years: 1 },
+      { name: "Linux / Bash", level: 93, years: 1 },
     ],
   },
 ]
 
 const additionalSkills = [
   "Git & Version Control",
-  "Agile / Scrum",
   "Testing (Jest, Pytest)",
   "CI/CD Pipelines",
-  "System Design",
-  "API Security",
-  "Performance Optimization",
-  "Technical Writing",
   "Code Review",
-  "Mentoring",
 ]
 
 const tools = [
   { name: "VS Code", category: "Editor" },
   { name: "Figma", category: "Design" },
-  { name: "Postman", category: "API" },
   { name: "Notion", category: "Productivity" },
   { name: "Slack", category: "Communication" },
-  { name: "Linear", category: "Project Management" },
 ]
 
 export default function SkillsPage() {
   return (
     <>
       <Head>
-        <title>Skills | Natnael Builds</title>
+        <title>Skills | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Technical skills and expertise in frontend, backend, DevOps, and more. Explore my proficiency in modern web technologies."

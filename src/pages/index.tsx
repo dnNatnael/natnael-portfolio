@@ -9,7 +9,7 @@ import { ProjectCard } from "@/components/project-card"
 import { mockProjects } from "@/lib/mock-data"
 import Head from "next/head"
 
-const skills = ["TypeScript", "React", "Next.js", "Python", "FastAPI", "PostgreSQL", "Docker", "AWS"]
+const skills = ["HTML", "CSS", "JavaScript", "React", "Node.js","Next.js","Python", "FastAPI", "NumPy", "pandas", "MathLib"]
 
 const features = [
   {
@@ -35,7 +35,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Natnael Builds | Full-Stack Developer Portfolio</title>
+        <title>Home | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Full-stack developer specializing in modern web applications, cloud architecture, and scalable solutions. View my projects and get in touch."
@@ -59,9 +59,8 @@ export default function HomePage() {
                   Building Digital
                   <span className="gradient-text"> Experiences</span> That Matter
                 </h1>
-                <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-xl">
-                  Full-stack developer specializing in modern web applications, cloud architecture, and scalable
-                  solutions that drive business growth.
+                <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-xl justified-text">
+                  Front-end and Back-end Developer with a strong enthusiasm for AI and Machine Learning, specializing in building modern, scalable web applications and intelligent systems that support business growth and innovation.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button asChild size="lg">
@@ -89,7 +88,7 @@ export default function HomePage() {
 
               <div className="relative">
                 <div className="relative aspect-square max-w-md mx-auto">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 rounded-full blur-3xl" />
+                  <div className="absolute inset-0 bg-linear-to-br from-primary/30 to-accent/30 rounded-full blur-3xl" />
                   <Image
                     src="/professional-developer-portrait-illustration.jpg"
                     alt="Natnael - Full Stack Developer"

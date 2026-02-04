@@ -43,7 +43,7 @@ const education = [
 ]
 
 const techStack = {
-  Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  Frontend: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS"],
   Backend: ["Node.js", "Python", "FastAPI", "PostgreSQL", "Redis"],
   DevOps: ["Docker", "AWS", "GitHub Actions", "Vercel", "Linux"],
   Tools: ["Git", "VS Code", "Figma", "Postman", "Notion"],
@@ -53,7 +53,7 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About | Natnael Builds</title>
+        <title>About | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Learn more about Natnael - a full-stack developer with expertise in modern web technologies, cloud architecture, and scalable solutions."
@@ -66,7 +66,7 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="relative aspect-[4/5] max-w-md mx-auto">
+                <div className="relative aspect-s4/5 max-w-md mx-auto">
                   <Image
                     src="/professional-developer-working-at-desk.jpg"
                     alt="Natnael at work"
@@ -87,16 +87,16 @@ export default function AboutPage() {
                 </h1>
                 <div className="flex items-center gap-2 text-muted-foreground mb-6">
                   <MapPin className="h-4 w-4" />
-                  <span>San Francisco, CA</span>
+                  <span>Addis Ababa, Ethiopia</span>
                 </div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  I&apos;m a passionate full-stack developer with over 5 years of experience building web applications
-                  that solve real-world problems. My journey in tech started with a curiosity about how things work and
-                  has evolved into a career dedicated to creating elegant, efficient solutions.
+                  I'm a full-stack developer specializing in modern web applications, cloud architecture, and scalable solutions that drive business growth. With 1 year of hands-on experience, I focus on building reliable, efficient systems that solve real-world problems.
                 </p>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source
-                  projects, or sharing knowledge through technical blog posts.
+                  My skill set includes front-end development, back-end development, and I'm an AI & Machine Learning enthusiast, continuously learning how intelligent systems can improve applications and user experiences. I enjoy writing clean code and designing solutions with scalability in mind.
+                </p>
+                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                  When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical blog posts.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button asChild>
