@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Natnael Builds | Full-Stack Developer Portfolio</title>
+        <title>Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Full-stack developer specializing in modern web applications, cloud architecture, and scalable solutions. View my projects and get in touch."

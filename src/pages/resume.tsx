@@ -118,7 +118,7 @@ export default function ResumePage() {
   return (
     <>
       <Head>
-        <title>Resume | Natnael Builds</title>
+        <title>Resume | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Professional resume of Natnael - Full-Stack Developer with 5+ years of experience in web development, cloud architecture, and scalable solutions."

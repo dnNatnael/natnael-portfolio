@@ -12,7 +12,7 @@ export default function BlogPage() {
   return (
     <>
       <Head>
-        <title>Blog | Natnael Builds</title>
+        <title>Blog | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Technical articles and insights on web development, software engineering, and best practices."
