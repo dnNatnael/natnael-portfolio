@@ -11,42 +11,32 @@ import Head from "next/head"
 const experience = [
   {
     role: "Senior Full-Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: "Leading development of enterprise SaaS products serving 50,000+ users.",
+    company: "10 Academy",
+    period: "11/2025 - Present",
+    description: "Improved data accuracy by 19% by implementing advanced solar data analytics techniques.",
   },
   {
-    role: "Full-Stack Developer",
-    company: "Digital Solutions Co.",
-    period: "2020 - 2022",
-    description: "Built and maintained multiple client projects using React and Node.js.",
-  },
-  {
-    role: "Frontend Developer",
-    company: "StartupXYZ",
-    period: "2018 - 2020",
-    description: "Developed responsive web applications and improved site performance by 40%.",
+    role: "Web Developer",
+    company: "Internal Clinical Laboratories",
+    period: "07/2025 - 09/2025",
+    description: "Enhanced sample tracking efficiency by 80% by developing a web app with barcode scan and GPS features and reduced manual entry time by 30% by automating sample identification.",
   },
 ]
 
 const education = [
   {
-    degree: "B.S. Computer Science",
-    institution: "State University",
-    year: "2018",
-  },
-  {
-    degree: "AWS Solutions Architect",
-    institution: "Amazon Web Services",
-    year: "2021",
+    degree: "BSc Computer Science and Engineering",
+    institution: "Adama Science and Technology University",
+    period: "2022 - 2027",
+    //description: "Graduated with a BSc in Computer Science and Engineering from State University.",
   },
 ]
 
 const techStack = {
   Frontend: ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Tailwind CSS"],
-  Backend: ["Node.js", "Python", "FastAPI", "PostgreSQL", "Redis"],
-  DevOps: ["Docker", "AWS", "GitHub Actions", "Vercel", "Linux"],
-  Tools: ["Git", "VS Code", "Figma", "Postman", "Notion"],
+  Backend: ["Node.js", "Python", "FastAPI", "PostgreSQL",],
+  DevOps: ["Docker", "GitHub Actions",],
+  Tools: ["Git", "VS Code", "Postman", "Notion"],
 }
 
 export default function AboutPage() {
@@ -155,7 +145,7 @@ export default function AboutPage() {
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold text-foreground mb-1">{edu.degree}</h3>
                     <p className="text-muted-foreground mb-2">{edu.institution}</p>
-                    <Badge variant="secondary">{edu.year}</Badge>
+                    <Badge variant="secondary">{edu.period}</Badge>
                   </CardContent>
                 </Card>
               ))}
