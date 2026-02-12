@@ -90,7 +90,7 @@ export default function HomePage() {
                 <div className="relative aspect-square max-w-md mx-auto">
                   <div className="absolute inset-0 bg-linear-to-br from-primary/30 to-accent/30 rounded-full blur-3xl" />
                   <Image
-                    src="/professional-developer-portrait-illustration.jpg"
+                    src="/profile.jpg"
                     alt="Natnael - Full Stack Developer"
                     width={500}
                     height={500}
