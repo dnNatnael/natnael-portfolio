@@ -15,7 +15,7 @@ export const projects: Project[] = [
     title: "End to End Insurance Risk Analytics Predictive Model",
     description: "Full-stack ML pipeline for insurance risk assessment with predictive modeling and analytics dashboards.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/End to End Insurance Risk Analytics Predictive Model.png",
     githubUrl: "https://github.com/dnNatnael/End-to-End-Insurance-Risk-Analytics-Predictive-Modeling",
     featured: true,
   }),
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     title: "Credit Risk Probability Model for Alternative Data",
     description: "ML model using alternative data sources to predict credit risk and probability of default.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/Credit Risk Probability Mode for Alternative Data.png",
     githubUrl: "https://github.com/dnNatnael/Credit-Risk-Probability-Model-for-Alternative-Data",
   }),
   addProjectMeta({
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     title: "Solar Challenge",
     description: "Data-driven solar energy prediction and optimization challenge project.",
     category: "AI/ML",
-    imageUrl: "/ai-writing-interface-with-generated-text.jpg",
+    imageUrl: "/Solar Challenge.png",
     githubUrl: "https://github.com/dnNatnael/solar-challenge-week0",
   }),
   addProjectMeta({
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     title: "Customer Experience for Fintech Apps",
     description: "Analytics and ML models to measure and improve customer experience in fintech applications.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/Customer Experience for Fintech Apps.png",
     githubUrl: "https://github.com/dnNatnael/Customer-Experience-Analytics-for-Fintech-Apps",
   }),
   addProjectMeta({
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     title: "Project Chimera",
     description: "AI/ML experiment combining multiple models for enhanced predictive capabilities.",
     category: "AI/ML",
-    imageUrl: "/ai-writing-interface-with-generated-text.jpg",
+    imageUrl: "/Project Chimera.png",
     githubUrl: "https://github.com/dnNatnael/project-chimera",
   }),
   addProjectMeta({
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     title: "Time Series Forecasting for Portfolio Management Optimization",
     description: "Time series models and forecasting for optimizing investment portfolio allocation.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/Time Series Forecasting for Portfolio Optimization.png",
     githubUrl: "https://github.com/dnNatnael/time-series-forecasting-for-portfolio-management-optimization",
   }),
   addProjectMeta({
@@ -64,7 +64,7 @@ export const projects: Project[] = [
     title: "Forecasting Financial Inclusion in Ethiopia",
     description: "Predictive analytics for forecasting financial inclusion trends in Ethiopia.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/Forecasting Financial Inclusion in Ethiopia.png",
     githubUrl: "https://github.com/dnNatnael/Forecasting-Financial-Inclusion-in-Ethiopia",
   }),
   addProjectMeta({
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     title: "Intelligent Compliant Analysis for Financial Services",
     description: "NLP and ML pipeline for automated compliance document analysis in finance.",
     category: "AI/ML",
-    imageUrl: "/ai-writing-interface-with-generated-text.jpg",
+    imageUrl: "/Intelligent Compliant Analysis for Fintech Services.png",
     githubUrl: "https://github.com/dnNatnael/intelligent-compliant-analysis-for-financial-services",
   }),
   addProjectMeta({
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     title: "Shipping a Data Product",
     description: "End-to-end data product pipeline from ingestion to deployment.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/Shipping a Data Product.png",
     githubUrl: "https://github.com/dnNatnael/Shipping-a-Data-Product",
   }),
   addProjectMeta({
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     title: "Predicting Price Moves with News Sentiment",
     description: "Sentiment analysis on news feeds to predict market price movements.",
     category: "AI/ML",
-    imageUrl: "/ai-writing-interface-with-generated-text.jpg",
+    imageUrl: "/Predicting Price Moves with News Sentiment.png",
     githubUrl: "https://github.com/dnNatnael/Predicting-Price-Moves-with-News-Sentiment",
   }),
   addProjectMeta({
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     title: "Change Point Analysis and Statistical Modeling",
     description: "Statistical modeling and change point detection for time series data.",
     category: "AI/ML",
-    imageUrl: "/analytics-dashboard.png",
+    imageUrl: "/Change Point Analysis and Statistical Modeling.png",
     githubUrl: "https://github.com/dnNatnael/Change-Point-Analysis-and-Statistical-Modeling-of-Time-Series-Data",
   }),
   addProjectMeta({
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     title: "Barcode Scanner and Location Tracker Web Application",
     description: "Full-stack web app for scanning barcodes and tracking inventory with location services.",
     category: "Full-Stack",
-    imageUrl: "/ecommerce-dashboard-with-products.jpg",
+    imageUrl: "/Barcode Scanner and Location Tracker.png",
     githubUrl: "https://github.com/dnNatnael/barcode-scanner-and-location-tracker-web-application",
     featured: true,
   }),
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     title: "Natnael Portfolio",
     description: "Personal portfolio website built with Next.js, showcasing projects and skills.",
     category: "Full-Stack",
-    imageUrl: "/modern-developer-portfolio-website.jpg",
+    imageUrl: "/Natnael Portfolio.png",
     githubUrl: "https://github.com/dnNatnael/natnael-portfolio",
     featured: true,
   }),
@@ -130,7 +130,7 @@ export const projects: Project[] = [
     title: "Personal Profile",
     description: "Clean, responsive personal profile page with custom CSS styling.",
     category: "Frontend",
-    imageUrl: "/modern-developer-portfolio-website.jpg",
+    imageUrl: "/Personal Profile.png",
     githubUrl: "https://github.com/dnNatnael/CSEC_DEV_Personal_Profile_with_CSS",
   }),
   addProjectMeta({
@@ -138,7 +138,7 @@ export const projects: Project[] = [
     title: "Todo List App",
     description: "Interactive todo list application with add, complete, and manage task features.",
     category: "Frontend",
-    imageUrl: "/kanban-board-task-management-interface.jpg",
+    imageUrl: "/Todo List App.png",
     githubUrl: "https://github.com/dnNatnael/Todo-List-App",
   }),
 ]
