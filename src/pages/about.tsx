@@ -10,7 +10,12 @@ import Head from "next/head"
 
 const experience = [
   {
-    role: "Senior Full-Stack Developer",
+    role: "AI/ML Engineer",
+    company: "Revelo",
+    period: "February 10, 2025 - Present",
+  },
+  {
+    role: "AI/ML Intern",
     company: "10 Academy",
     period: "11/2025 - Present",
     description: "Improved data accuracy by 19% by implementing advanced solar data analytics techniques.",
