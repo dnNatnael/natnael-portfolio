@@ -9,95 +9,80 @@ import { Separator } from "@/components/ui/separator"
 import Head from "next/head"
 
 const personalInfo = {
-  name: "Natnael",
-  title: "Senior Full-Stack Developer",
-  email: "hello@natnael.dev",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
+  name: "Natnael Yilma Ketema",
+  title: "Full-Stack Developer | AI/ML Entusiast",
+  email: "natnaelyilma27@gmail.com",
+  phone: "+251 929 709 562",
+  location: "Addis Ababa, Ethiopia",
   website: "natnael.dev",
-  github: "github.com/natnael",
-  linkedin: "linkedin.com/in/natnael",
+  github: "github.com/dnNatnael",
+  linkedin: "linkedin.com/in/natnael-ketema-0a8613351/",
 }
 
 const experience = [
   {
-    role: "Senior Full-Stack Developer",
-    company: "Tech Innovations Inc.",
-    location: "San Francisco, CA",
-    period: "Jan 2022 - Present",
-    type: "Full-time",
-    achievements: [
-      "Lead development of enterprise SaaS platform serving 50,000+ active users with 99.9% uptime",
-      "Architected microservices infrastructure reducing deployment time by 60%",
-      "Mentored team of 4 junior developers, improving code quality and delivery speed",
-      "Implemented CI/CD pipelines using GitHub Actions, reducing release cycles from weekly to daily",
-      "Optimized database queries resulting in 40% improvement in API response times",
-    ],
-    technologies: ["Next.js", "TypeScript", "Python", "PostgreSQL", "AWS", "Docker"],
-  },
-  {
     role: "Full-Stack Developer",
-    company: "Digital Solutions Co.",
-    location: "San Jose, CA",
-    period: "Jun 2020 - Dec 2021",
+    company: "Tech Innovations Inc.",
+    location: "Bulgaria, Addis Ababa, Ethiopia",
+    period: "July 01, 2025 - September 30, 2025",
     type: "Full-time",
     achievements: [
-      "Built and maintained 15+ client projects using React and Node.js",
-      "Developed real-time collaboration features using WebSocket technology",
-      "Integrated third-party APIs including Stripe, Twilio, and AWS services",
-      "Reduced application load time by 50% through code optimization and caching",
+      "Led development of barcode scanning web application supporting 500+ warehouse workers and logistics staff with 99.9% system availability during peak operations",  
+      "Architected microservices for real-time location tracking and inventory updates, reducing scan-to-database latency by 60%",  
+      "Optimated database indexing and query structure for location history logs, resulting in 40% faster load times for asset tracking views",
     ],
-    technologies: ["React", "Node.js", "MongoDB", "Redis", "AWS Lambda"],
+    technologies: ["React", "JavaScript", "Node.js", "Firebase", "HTML", "CSS", "Tailwind CSS"],
   },
   {
-    role: "Frontend Developer",
-    company: "StartupXYZ",
-    location: "Palo Alto, CA",
-    period: "Aug 2018 - May 2020",
-    type: "Full-time",
+    role: "AI/ML Engineer Intern",
+    company: "10 Academy",
+    location: "Comet Building 22, Addis Ababa, Ethiopia",
+    period: "Dec 2025 - Feb 2026",
+    type: "Remote",
     achievements: [
-      "Developed responsive web applications improving user engagement by 35%",
-      "Created reusable component library used across 5 different products",
-      "Implemented A/B testing framework leading to 20% increase in conversions",
-      "Collaborated with UX team to improve accessibility compliance to WCAG 2.1 AA",
+      "Developed interactive dashboards and data visualization tools, driving 35% improvement in user engagement metrics",
+      "Created reusable feature engineering pipelines and analytical modules adopted across different products",
     ],
-    technologies: ["React", "JavaScript", "Sass", "Jest", "Webpack"],
+    technologies: ["Python", "Jupyter Notebook", "Docker", "Postgres"],
   },
 ]
 
 const education = [
   {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of California, Berkeley",
-    location: "Berkeley, CA",
-    period: "2014 - 2018",
-    gpa: "3.8/4.0",
+    degree: "Bachelor of Science in Computer Science and Engineering",
+    institution: "Adama Science and Technology University",
+    location: "Adama, Ethiopia",
+    period: "2022 - 2027",
     highlights: [
-      "Dean's List: 6 semesters",
-      "Senior Project: AI-powered code review tool",
-      "Teaching Assistant for Data Structures course",
+      "UnderGraduate Student"
     ],
   },
 ]
 
 const certifications = [
   {
-    name: "AWS Solutions Architect - Associate",
-    issuer: "Amazon Web Services",
-    date: "2021",
-    credentialId: "AWS-SAA-12345",
+    name: "How to Evaluate Resources",
+    issuer: "A course study offered by Ministry of Education",
+    date: "2024",
+    credentialId: "59ae60798222400fb2bfe4b111afaa2d",
   },
   {
-    name: "Professional Scrum Master I (PSM I)",
-    issuer: "Scrum.org",
-    date: "2020",
-    credentialId: "PSM-67890",
+    name: "Set Goals to Manage Your Time",
+    issuer: "A course study offered by Ministry of Education",
+    date: "2024",
+    credentialId: "2d0501b49c544fcf9c9340eba2d1dce4",
   },
   {
-    name: "MongoDB Certified Developer",
-    issuer: "MongoDB University",
-    date: "2020",
-    credentialId: "MDB-11111",
+    name: "Android Developer Fundamentals",
+    issuer: "Issued by Udacity in partnership with the Ministry of Education",
+    date: "2024",
+    credentialId: "b5c-4bee-11ef-85b7-5750c02b60ff",
+  },
+  {
+    name: "Digital Literacy Skills",
+    issuer: "Issued by Dereja.com in partnership with Adama Science and Technology University",
+    date: "2024",
+    credentialId: "430b0eb8-0185-4041-ac79-19fbda32f69c",
   },
 ]
 
@@ -106,12 +91,8 @@ const coreSkills = [
   "React/Next.js",
   "Python/FastAPI",
   "Node.js",
-  "PostgreSQL/MongoDB",
-  "Docker/Kubernetes",
-  "AWS/GCP",
-  "CI/CD",
-  "System Design",
-  "Agile/Scrum",
+  "PostgreSQL",
+  "Docker"
 ]
 
 export default function ResumePage() {
@@ -185,12 +166,8 @@ export default function ResumePage() {
             {/* Summary */}
             <section className="mb-10">
               <h2 className="text-lg font-semibold text-foreground mb-3">Professional Summary</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Results-driven Full-Stack Developer with 5+ years of experience building scalable web applications and
-                leading development teams. Expertise in modern JavaScript frameworks, Python backend development, and
-                cloud architecture. Passionate about clean code, performance optimization, and delivering exceptional
-                user experiences. Proven track record of reducing deployment times, improving application performance,
-                and mentoring junior developers.
+              <p className="text-muted-foreground leading-relaxed justified-text">
+                Innovative Frontend & Backend Developer and AI Enthusiast with 1+ years of experience architecting full-stack solutions and integrating intelligent automation into web ecosystems. Junior developer in modern JavaScript frameworks, Python-based AI/ML services, and cloud infrastructure. Passionate about bridging the gap between robust software engineering and cutting-edge artificial intelligence. Proven track record of deploying LLM-powered features, optimizing data pipelines, and building intuitive interfaces that make complex AI accessible to end-users.
               </p>
             </section>
 
@@ -273,7 +250,6 @@ export default function ResumePage() {
                     </div>
                     <div className="text-sm text-muted-foreground">
                       <p>{edu.period}</p>
-                      <p>GPA: {edu.gpa}</p>
                     </div>
                   </div>
                   <ul className="list-disc list-inside space-y-1 text-muted-foreground">
