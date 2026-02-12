@@ -70,9 +70,8 @@ export default function HomePage() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <a href="/resume.pdf" download>
-                      <Download className="mr-2 h-5 w-5" />
-                      Download CV
+                    <a href="https://drive.google.com/file/d/1STtRFvHMb817PonTUaBsUqhZb8-NQ3mA/view?usp=sharing" download>
+                      RESUME
                     </a>
                   </Button>
                 </div>

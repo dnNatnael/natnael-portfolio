@@ -22,12 +22,12 @@ const personalInfo = {
 const experience = [
   {
     role: "Full-Stack Developer",
-    company: "Tech Innovations Inc.",
+    company: "International Clinical Laboratory",
     location: "Bulgaria, Addis Ababa, Ethiopia",
     period: "July 01, 2025 - September 30, 2025",
     type: "Full-time",
     achievements: [
-      "Led development of barcode scanning web application supporting 500+ warehouse workers and logistics staff with 99.9% system availability during peak operations",  
+      "Led development of barcode scanning web application supporting 100+ warehouse workers and logistics staff with 99.9% system availability during peak operations",  
       "Architected microservices for real-time location tracking and inventory updates, reducing scan-to-database latency by 60%",  
       "Optimated database indexing and query structure for location history logs, resulting in 40% faster load times for asset tracking views",
     ],
@@ -115,14 +115,13 @@ export default function ResumePage() {
                 <Badge className="mb-2" variant="secondary">
                   Resume
                 </Badge>
-                <h1 className="text-4xl font-bold text-foreground">{personalInfo.name}</h1>
+                   <h1 className="text-4xl font-bold text-foreground">{personalInfo.name}</h1>
                 <p className="text-xl text-primary font-medium">{personalInfo.title}</p>
               </div>
               <Button asChild size="lg">
-                <a href="/resume.pdf" download>
-                  <Download className="mr-2 h-5 w-5" />
-                  Download PDF
-                </a>
+                <a href="https://drive.google.com/file/d/1STtRFvHMb817PonTUaBsUqhZb8-NQ3mA/view?usp=sharing" download>
+                  RESUME PDF
+                </a>  
               </Button>
             </div>
 
