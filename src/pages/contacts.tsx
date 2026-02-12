@@ -10,13 +10,13 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@natnael.dev",
+    value: "natnael.yilma27@gmail.com",
     href: "mailto:hello@natnael.dev",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Addis Ababa, Ethiopia",
     href: null,
   },
   {
@@ -28,9 +28,9 @@ const contactInfo = [
 ]
 
 const socialLinks = [
-  { name: "GitHub", href: "https://github.com/natnael", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com/in/natnael", icon: Linkedin },
-  { name: "Twitter", href: "https://twitter.com/natnael", icon: Twitter },
+  { name: "GitHub", href: "https://github.com/dnNatnael", icon: Github },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/natnael-ketema-0a8613351/", icon: Linkedin },
+  { name: "Twitter", href: "https://x.com/YilmaNatna79065", icon: Twitter },
 ]
 
 export default function ContactPage() {

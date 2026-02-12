@@ -4,8 +4,7 @@ import { Github, Linkedin, Twitter, Mail, Code2 } from "lucide-react"
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/dnNatnael", icon: Github },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/natnael-ketema-0a8613351/", icon: Linkedin },
-  { name: "Twitter", href: "https://twitter.com/natnael", icon: Twitter },
-  { name: "Email", href: "mailto:hello@natnael.dev", icon: Mail },
+  { name: "Twitter", href: "https://x.com/YilmaNatna79065", icon: Twitter },
 ]
 
 const footerLinks = [
