@@ -21,7 +21,7 @@ export default function ProjectsPage() {
   return (
     <>
       <Head>
-        <title>Projects | Natnael Builds</title>
+        <title>Projects | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Explore my portfolio of projects including AI/ML models, full-stack applications, and frontend development."

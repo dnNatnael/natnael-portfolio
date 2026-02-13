@@ -37,7 +37,7 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contact | Natnael Builds</title>
+        <title>Contact | Natnael Yilma Ketema</title>
         <meta
           name="description"
           content="Get in touch with Natnael for project inquiries, collaborations, or just to say hello."

@@ -14,7 +14,7 @@ export default function ProjectDetailPage() {
     return (
       <>
         <Head>
-          <title>Project Not Found | Natnael Builds</title>
+          <title>Project Not Found | Natnael Yilma Ketema</title>
         </Head>
         <Header />
         <main className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8">
